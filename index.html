@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thiago Anastácio — Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="light">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#sobre">Thiago A. T. Trindade David</a>
+      <button id="btn-menu" class="menu-toggle">☰</button>
+      <nav id="main-nav" class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+        <button id="theme-toggle" class="theme-toggle">🌓</button>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="sobre" class="section container">
+      <h1>Sobre mim</h1>
+      <p>Olá — eu sou <strong>Thiago Anastácio Pires Trindade David</strong>. Gosto de jogos, tenho interesse em viver do digital e pratico esportes.
+      Atualmente curso <em>Engenharia de Software</em> na UNINTER.</p>
+    </section>
+    <section id="formacao" class="section alt container">
+      <h2>Formação</h2>
+      <p>Engenharia de Software - UNINTER</p>
+    </section>
+    <section id="portfolio" class="section container">
+      <h2>Portfólio</h2>
+      <p>Adicione aqui seus projetos.</p>
+    </section>
+    <section id="contato" class="section alt container">
+      <h2>Contato</h2>
+      <form id="contact-form" novalidate>
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" required />
+        <label for="email">E-mail</label>
+        <input id="email" type="email" required />
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>© <span id="ano"></span> Thiago Anastácio — <a href="mailto:thiagoaptd77@gmail.com">thiagoaptd77@gmail.com</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
